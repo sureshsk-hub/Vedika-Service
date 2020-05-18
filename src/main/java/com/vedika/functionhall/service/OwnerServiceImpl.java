@@ -20,6 +20,7 @@ public class OwnerServiceImpl implements OwnerService {
     public List<Owner> findAll() {
         return ownerRepository.findAll();
     }
+    
 
 /*
     @Override
